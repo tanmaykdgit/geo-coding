@@ -93,7 +93,7 @@ public class GeocodingController {
 
     @GetMapping("/")
     public ResponseEntity<String> getHomePage(){
-        return ResponseEntity.ok("Welcome to the Geo Coding API.");
+        return ResponseEntity.ok("Welcome Assists to the Geo Coding API.");
     }
 
 }
