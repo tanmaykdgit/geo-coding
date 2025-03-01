@@ -90,4 +90,10 @@ public class GeocodingController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("An error occurred while fetching reverse geocoding data.");
         }
     }
+
+    @GetMapping("/")
+    public ResponseEntity<String> getHomePage(){
+        return ResponseEntity.ok("Welcome to the Geo Coding API.");
+    }
+
 }
